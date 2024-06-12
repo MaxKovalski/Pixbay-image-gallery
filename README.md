@@ -15,7 +15,7 @@ npm install
 Start the server:
 
 ```bash
-node index.jd
+node index.js
 ```
 
 Start the react
