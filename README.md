@@ -33,7 +33,7 @@ npm start
 
 ## Key Features
 
-## Pagination
+### Pagination
 
 The project includes pagination for the images, allowing users to navigate between pages to view more images. It features buttons for moving to the next page and the previous page, enhancing the user experience and ease of browsing through images.
 
