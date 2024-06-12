@@ -1,0 +1,72 @@
+/* Container styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+/* Pagination styles */
+.pagination {
+  margin: 20px 0;
+}
+
+/* Image grid styles */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.image-grid img {
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.image-grid img:hover {
+  transform: scale(1.03);
+}
+
+/* Modal button styles */
+.modal-button {
+  padding: 15px 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  justify-content: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.modal-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Pagination button styles */
+.pagination button {
+  padding: 15px 25px;
+  font-size: 20px;
+  margin: 0 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  justify-content: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.pagination button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
